@@ -99,7 +99,7 @@ require_once('Formas.class.php')
 
         public function __toString(){
            $str = parent::__toString();
-           $str .= "Base:".$this->getBase().
+           $str .= "<br>Base:".$this->getBase().
            "<br>Lado 1:".$this->getLado1().
            "<br>Lado 2:".$this->getLado2().
            "<br>Área: ".round($this->Area(),2).

@@ -75,7 +75,7 @@ require_once('Formas.class.php')
 
         public function __toString(){
             $str = parent::__toString();
-            $str .= "Lado: ".$this->getLado().
+            $str .= "<br>Lado: ".$this->getLado().
             "<br>Área: ".$this->area().
             "<br>Perímetro: ".$this->perimetro().
             "<br>Diagonal: ".$this->diagonal();

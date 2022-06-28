@@ -79,7 +79,7 @@ require_once('Formas.class.php')
            $str = parent::__toString();
            $str .= "<br>Altura:".$this->getAlt().
            "<br>Base:".$this->getBase().
-           "Área: ".round($this->Area(),2);
+           "<br>Área: ".round($this->Area(),2);
            return $str;
         }
     }

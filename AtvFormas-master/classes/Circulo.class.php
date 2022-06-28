@@ -80,7 +80,7 @@ require_once('Formas.class.php')
 
         public function __toString(){
             $str = parent::__toString();
-            $str .= "Raio: ".$this->getRaio().
+            $str .= "<br>Raio: ".$this->getRaio().
             "<br>Área: ".round($this->Area(),2).
             "<br>Circunferência: ".round($this->Circunferencia(),2).
             "<br>Diâmetro: ".round($this->Diametro(),2);
