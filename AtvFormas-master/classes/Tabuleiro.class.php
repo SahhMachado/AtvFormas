@@ -86,7 +86,7 @@
         }
 
         public function desenha(){
-            $x = "<div style='height: ".$this->getLado()."vw; width: ".$this->getLado()."vw; background-color: #e5ddee;'></div>";
+            $x = "<div style='height: ".$this->getLado()."vw; width: ".$this->getLado()."vw; background-color: #e5ddee; border: 5px solid #b4a0cd'></div>";
             return $x;
         }
 

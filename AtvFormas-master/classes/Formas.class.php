@@ -32,7 +32,7 @@ abstract class Formas extends Database{
         public abstract static function listar($cnst = 0, $procurar = "");
 
         public function __toString(){
-            return "<br>[Forma]<br>Id: ".$this->getId().
+            return "<br>Id: ".$this->getId().
             "<br>Cor: ".$this->getCor().
             "<br>Id Tabuleiro: ".$this->getIdT().
             "<br>Contador: ".self::$contador;
